@@ -1,0 +1,37 @@
+{
+    "name": "pivot-data",
+    "version": "0.1",
+    "description": "Excel pivot table package",
+    "main": "dist/pivot.js",
+    "directories": {
+        "test": "tests"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-cli": "~0.1.11",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-contrib-uglify": "~0.2.7",
+        "jshint": "~2.3.0",
+    },
+    "scripts": {
+        "build": "grunt --complete",
+        "lint": "jshint src/pivot.js",
+        "test": "cd tests && node noderunner.js && node saucelabs.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/moojirang/pivot-data"
+    },
+    "keywords": [
+        "javascript",
+        "excel",
+        "pivot",
+        "json",
+    ],
+    "author": "Namjun Lee",
+    "email": "moojirang@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/moojirang/pivot-data/issues"
+    }
+}
