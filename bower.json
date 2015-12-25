@@ -1,0 +1,24 @@
+{
+  "name": "pivot-data",
+  "homepage": "https://github.com/moojirang/pivot-data",
+  "authors": [
+    "moojirang <moojirang@gmail.com>"
+  ],
+  "description": "javascript pivot data package",
+  "main": "pivot.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "pivot",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
